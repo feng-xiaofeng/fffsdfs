@@ -1,0 +1,48 @@
+form{
+/* padding: 50px 30px; */
+/* border-radius: 8px; */
+margin: auto;
+/* position: absolute; */
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+    width: 400px;
+    height: 400px;
+    border: 1px solid red;
+    text-align: center;
+    /* background: url(images/tree.jpg) no-repeat -40px 300px; */
+}
+form h3{
+    margin-left: 50px;
+}
+
+hr{
+    margin-left: 50px;
+}
+
+ .a1{
+     margin-left: 50px;
+ }
+
+ .a2{
+    margin-left: 80px;
+}
+
+
+input,
+textarea
+{
+background: url(images/attention.png) no-repeat right;
+}
+
+button{
+    margin-left: 25px;
+    background: rgb(81, 187, 125);
+    color: white;
+}
+
+span#as:hover input{
+    width: 200px;
+    height: 40px;
+}

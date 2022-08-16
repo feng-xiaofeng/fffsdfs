@@ -1,0 +1,60 @@
+{{define "admin/zhuce.html"}}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zhuce</title>
+    <link rel="stylesheet" href="/static/css/zhuce.css">
+<link rel="stylesheet" href="/static/css/img.css">
+</head>
+<body>
+    <form action="/denglu/zhuce" method="post">
+        <h3>用户注册：</h3>
+
+        <hr>
+         
+        <p>用户昵称：<span class="a1" ><input type="text" name="username"  placeholder="用户名"></span> <hr></p>
+
+        <p>注册邮箱：<span class="a1" ><input type="email" name="email"  placeholder="javin@example.com"></span><hr></p>
+
+        <p>手机号码：<span class="a1" ><input type="text" name="phone"  placeholder="手机号码"></span> <hr></p>
+
+        <p>密码： <span class="a2" ><input type="password" name="password1"  placeholder="不少于6位"></span><hr></p>
+        <p>密码： <span class="a2" ><input type="password" name="password2"  placeholder="再次输入密码"></span><hr></p>
+
+
+         <!-- <p>年龄：<span class="a2" id="as"><input type="number" name="number1" required placeholder></span><hr></p> -->
+
+         <!-- <p>兴趣爱好：<span class="a1"> -->
+            <!-- 足球<input type="checkbox" name="1"> -->
+            <!-- 篮球<input type="checkbox" name="1"> -->
+            <!-- 游泳<input type="checkbox" name="1"> -->
+            <!-- 唱歌<input type="checkbox" name="1"> -->
+            <!-- 跑步<input type="checkbox" name="1"> -->
+            <!-- 瑜伽<input type="checkbox" name="1"> -->
+         <!-- </span><hr></p> -->
+
+        <!-- <p>自我介绍： <span class="a1"><textarea name="abcde" cols="30" rows="10" required placeholder>Please enter your message</textarea></span><hr> </p> -->
+
+        <button type=submit>立即注册</button>
+
+          
+        <div></div>
+
+
+
+    </form>
+    <!-- <div id="overview"> -->
+        <!-- <form action="/denglu/zhuce" method="post"> -->
+            <!-- 用户名<input type="text" name="username"><br><br> -->
+            <!-- 手机号码<input type="text" name="phone"><br><br> -->
+            <!-- 邮箱<input type="text" name="email"><br><br> -->
+            <!-- 密码<input type="password" name="password"><br><br> -->
+            <!-- <input type="submit" value="注册"> -->
+        <!-- </form> -->
+    <!-- </div> -->
+</body>
+</html>
+{{end}}
